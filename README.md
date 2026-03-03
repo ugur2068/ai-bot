@@ -1,33 +1,32 @@
-# AI Bot Project Documentation
+# AI Bot
 
-## Overview
-This project is designed to create an intelligent assistant capable of performing various tasks based on user requests.
-
-## Features
-- **User Interaction**: Engages with users to understand their needs.
-- **GitHub Integration**: Capable of executing write operations on GitHub repositories.
-
-## Setup
+## Python Setup Instructions
 1. Clone the repository:
    ```bash
    git clone https://github.com/ugur2068/ai-bot.git
+   cd ai-bot
    ```
-2. Install necessary dependencies:
+2. Create a virtual environment:
    ```bash
-   npm install
+   python -m venv venv
    ```
-3. Run the application:
+3. Activate the virtual environment:
+   - For Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - For macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+4. Install the required packages:
    ```bash
-   npm start
+   pip install -r requirements.txt
    ```
-
-## Usage
-- To create a new branch: Use the command `create_branch`.
-- To update files, provide the necessary file content and path.
-- For merging pull requests, specify the pull request number.
+5. Run the application:
+   ```bash
+   python main.py
+   ```
 
 ## Contributing
-Please fork the repository and submit a pull request for any contributions.
-
-## License
-This project is licensed under the MIT License.
+Contributions are welcome! Please read the contribution guidelines before submitting your pull requests.
