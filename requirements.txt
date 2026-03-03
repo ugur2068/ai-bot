@@ -1,0 +1,10 @@
+# Python dependencies for trading bot
+
+numpy
+pandas
+requests
+matplotlib
+scikit-learn
+tensorflow
+cryptocompare
+ccxt
